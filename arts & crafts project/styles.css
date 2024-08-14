@@ -1,0 +1,27 @@
+h1 {
+    font-family: 'Helvetica';
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url('./images/pattern.jpeg');
+}
+
+h2 {
+    font-family: 'Helvetica';
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--color);
+}
+
+h3 {
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+
+strong {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    color: blue;
+}

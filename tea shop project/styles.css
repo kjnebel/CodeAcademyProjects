@@ -1,0 +1,157 @@
+* {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    height: 69px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    opacity: 0.9;
+    z-index: 1000;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.links {
+    display: flex;
+    margin-right: 10px;
+}
+
+a {
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bgImg {
+    display: flex;
+    height: 700px;
+    flex-basis: 1200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.hero {
+    background-image: url("./images/mission-background.jpg");
+    padding-top: 69px;
+    align-items: center;
+}
+
+article {
+    height: fit-content;
+    width: 100%;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 10px;
+    font-weight: 800;
+}
+
+h4 {
+    margin: 6px;
+}
+
+.totm {
+    padding-top: 69px;
+    flex-basis: 100%;
+    padding-bottom: 69px;
+}
+
+.teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teaPic {
+    margin: 15px;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.label {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#locations {
+    background-image: url("./images/locations-background.jpg");
+}
+
+.locationsCont {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    h1 {
+        flex-basis: 100%;
+        height: fit-content;
+        background-color: transparent;
+        align-self: flex-end;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    }
+}
+
+.location {
+    border-radius: 10px;
+    height: fit-content;
+    width: 300px;
+    padding: 8px;
+    opacity: 0.9;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.4);
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 24px;
+    padding: 20px;
+}
+
+p {
+    padding: 20px 12px;
+}
+
+.contact {
+    height: 200px;
+    opacity: 0.9;
+}
+
+h5, #copyright {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#copyright {
+    float: left;
+    opacity: 0.9;
+}
